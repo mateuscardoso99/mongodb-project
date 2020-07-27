@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.title{
+	height: 50px;
+	background-color: #343a40;
+}
+.button{
+	position: absolute;
+	right: 3px;
+	top: 3px;
+}
+.title h1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@media (max-width: 400px){
+	.title h1{
+		font-size: 1.8rem;
+	}
+}
+@media (max-width: 250px){
+	.title h1{
+		font-size: 1.2rem;
+	}
+}
